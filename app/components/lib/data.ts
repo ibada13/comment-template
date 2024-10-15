@@ -11,6 +11,8 @@ export const comments: comment[] = [
         date: "20 hours ago",
         username: "adamsdavid",
         upvotes: 2,
+        upvoted:false,
+        downvoted:false,
         comment: "some comment with ",
         replies: [
             {
@@ -18,6 +20,8 @@ export const comments: comment[] = [
                 date: "16 hours ago",
                 username: "sara may",
                 upvotes: 5,
+                upvoted:true,
+                downvoted:false,
                 comment: "some reply with ",
                 replies: [
                     {
@@ -25,6 +29,8 @@ export const comments: comment[] = [
                         date: "14 hours ago",
                         username: "jessica21",
                         upvotes: 5,
+                        upvoted:false,
+                        downvoted:true,
                         comment: "okey a reply to reply to comment comment with ",
                         replies:[],
                     }
@@ -36,6 +42,8 @@ export const comments: comment[] = [
         date: "20 hours ago",
         username: "andrew231",
         upvotes: 2,
+        upvoted:true,
+        downvoted:false,
         comment: "some another comment from andrew ",
         replies:[]
     }

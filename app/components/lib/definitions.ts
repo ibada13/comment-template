@@ -6,5 +6,7 @@ export interface comment {
     date: string, 
     comment:string,
     upvotes: number,
+    upvoted: boolean,
+    downvoted:boolean,
     replies:comment[]
 }
